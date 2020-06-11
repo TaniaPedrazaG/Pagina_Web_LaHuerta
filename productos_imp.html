@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <link rel="icon" href="img/logo.png" type="image/png">
+	<title>Productos | La Huerta</title>
+	<meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=3.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="css/estilos.css">
+	<link rel="stylesheet" href="css/galeria.css">
+	<link rel="stylesheet" href="css/font.css">
+
+</head>
+<body>
+    <div class="modal" id="modal">
+        <div class="modal__content">
+            <div class="container container--flex">
+                <div class="column column--50">
+                    <img src="" alt="" class="modal__img" id="modal__img">
+                </div>
+                <div class="column column--50">
+                    <h3 class="column__title__modal"> Ciruela Chilena </h3>
+                    <p class="column__txt__modal">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                </div>
+            </div>
+        </div>
+        <div class="modal__boton" id="modal__boton">X</div>
+    </div>
+	<header class="main-header">
+		<div class="container container--flex">
+			<div class="logo-container column column--50">
+				<img src="img/imgLogo.png" alt="" class="logo">
+			</div>
+			<div class="main-header__contactInfo column column--50">
+				<p class="main-header__contactInfo__phone">
+					<span class="icon-phone">313 251 4834</span>
+				</p>
+				<p class="main-header__contactInfo__address">
+					<span class="icon-location">Calle 17 N° 11-62 Duitama</span>
+				</p>
+			</div>
+		</div>
+	</header>
+
+	<nav class="main-nav">
+		<div class="container container--flex">
+			<span class="icon-menu" id="btnmenu"></span>
+			<ul class="menu" id="menu">
+				<li class="menu__item"><a href="index.html" class="menu__link">Inicio</a></li>
+				<li class="menu__item"><a href="nosotros.html" class="menu__link">Nosotros</a></li>
+				<li class="menu__item"><a href="productos.html" class="menu__link menu__link--select">Productos</a></li>
+				<li class="menu__item"><a href="contacto.html" class="menu__link">Contacto</a></li>
+			</ul>
+		</div>
+	</nav>
+
+	<section class="banner">
+		<img src="img/importad.jpg" alt="" class="banner__img">
+		<div class="banner__content">La Mejor Selección en Frutas Importadas</div>
+	</section>
+
+	<main class="main">
+        <section class="group group--color">
+			<div class="container">
+				<h2 class="main__title"> Frutas Importadas</h2>
+			</div>
+		</section>
+        <section>
+            <div class="group gallery">
+            <div class="container container--flex">
+                <div class="column column--50-25">
+                    <img src="img/importadas/CiruelaChi.jpg" alt="" class="gallery__img gallery__img--big">
+                    <img src="img/importadas/Durazno.jpg" alt="" class="gallery__img gallery__img--small">
+                </div>
+                <div class="column column--50-25">
+                    <img src="img/importadas/Pera.jpg" alt="" class="gallery__img gallery__img--small">
+                    <img src="img/importadas/Roja.jpg" alt="" class="gallery__img gallery__img--big">
+                </div>
+                <div class="column column--50-25">
+                    <img src="img/importadas/Royal.jpg" alt="" class="gallery__img gallery__img--big">
+                    <img src="img/importadas/TangeloImp.jpg" alt="" class="gallery__img gallery__img--small">
+                </div>
+                <div class="column column--50-25">
+                    <img src="img/importadas/UvaChi.jpg" alt="" class="gallery__img gallery__img--small">
+                    <img src="img/importadas/Verde.jpg" alt="" class="gallery__img gallery__img--big">
+                </div>
+            </div>
+        </div>
+        </section>
+	</main>
+
+	<footer class="main-footer">
+			<div class="container container--flex">
+				<div class="column column--50">
+					<h2 class="column__title">¿Porqué visitarnos?</h2>
+					<p class="column__txt">Supermercados La Huerta es reconocida como una empresa que presta un gran servicio,frescura y calidad por lo cual es reconocida por distribuir sus productos a diferentes empresas en Duitama, Paipa, Sogamoso y Sotaquira.</p>
+				</div>
+				<div class="column column--50">
+					<h2 class="column__title">Contacto</h2>
+					<p class="column__txt"><span class="icon-phone"></span>313 251 4834</p>
+	                <p class="column__txt"><span class="icon-location"></span>Calle 17 N° 11-62 Duitama, Boyacá</p>
+	                <p class="column__txt"><span class="icon-mail"></span>fruverhuerta@gmail.com</p>
+				</div>
+				<p class="copy">© 2019 Supermercado La Huerta | Todos los derechos reservados</p>
+			</div>
+	</footer>
+	<script src="js/menu.js"></script>
+	<script src="js/modal.js"></script>
+</body>
+</html>

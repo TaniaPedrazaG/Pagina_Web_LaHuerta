@@ -1,0 +1,83 @@
+@font-face{
+    font-family:"Kaushan Script";
+    src: url(../fonts/KaushanScript-Regular.ttf) format("truetype");
+}
+@font-face{
+    font-family:"Montserrat";
+    src: url(../fonts/Montserrat-Regular.ttf) format("truetype");
+}
+@font-face{
+    font-family:"Montserrat";
+    font-weight: bold;
+    src: url(../fonts/Montserrat-Bold.ttf) format("truetype");
+}
+
+.gallery__img{
+    border: 1px solid #47A721;
+    padding: 2px;
+    object-fit:cover;
+    align-items: flex-start;
+    margin-bottom: 15px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.gallery__img:hover{
+    transform: scale(1.02);
+}
+
+.gallery__img--big{
+    height: 400px;
+}
+.gallery__img--small{
+    height: 200px;
+}
+
+.modal{
+    display: none;
+    width: 100%;
+    min-height: 100vh;
+    background: rgba(0,0,0,0.9);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100000;
+}
+.modal__content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.modal__img{
+    width: 80%;
+}
+.modal__boton{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    background: #47A721;
+    font-size: 2em;
+    text-align: center;
+    border-radius: 50%;
+    font-family: monospace;
+}
+.modal--open{
+    display: block;
+}
+
+.column__title__modal{
+    font-family: 'Kaushan Script', cursive;
+    color: white;
+    font-size: 2em;
+}
+
+.column__txt__modal{
+    color: white;
+    text-align: justify;
+}

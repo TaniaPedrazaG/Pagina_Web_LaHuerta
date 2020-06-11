@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <link rel="icon" href="img/logo.png" type="image/png">
+	<title>Contacto | La Huerta</title>
+	<meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=3.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="css/estilos.css">
+	<link rel="stylesheet" href="css/contacto.css">
+	<link rel="stylesheet" href="css/font.css">
+
+</head>
+<body>
+	<header class="main-header">
+		<div class="container container--flex">
+			<div class="logo-container column column--50">
+				<img src="img/imgLogo.png" alt="" class="logo">
+			</div>
+			<div class="main-header__contactInfo column column--50">
+				<p class="main-header__contactInfo__phone">
+					<span class="icon-phone">313 251 4834</span>
+				</p>
+				<p class="main-header__contactInfo__address">
+					<span class="icon-location">Calle 17 N° 11-62 Duitama</span>
+				</p>
+			</div>
+		</div>
+	</header>
+
+	<nav class="main-nav">
+		<div class="container container--flex">
+			<span class="icon-menu" id="btnmenu"></span>
+			<ul class="menu" id="menu">
+				<li class="menu__item"><a href="/" class="menu__link">Inicio</a></li>
+				<li class="menu__item"><a href="productos.html" class="menu__link">Nosotros</a></li>
+				<li class="menu__item"><a href="productos.html" class="menu__link">Productos</a></li>
+				<li class="menu__item"><a href="nosotros.html" class="menu__link menu__link--select">Contacto</a></li>
+			</ul>
+		</div>
+	</nav>
+
+	<section class="banner">
+		<img src="img/banner-contact.jpg" alt="" class="banner__img">
+		<div class="banner__content">Déjanos un mensaje</div>
+	</section>
+
+	<main class="main">
+	    <section class="group contact">
+	        <h2 class="group__title">Contáctenos</h2>
+	        <div class="container container--flex">
+	            <div class="contact-information column column--50">
+	                <h3 class="column__title">Información de contacto</h3>
+	                <p class="column__txt"><span class="icon-phone"></span>313 251 4834</p>
+	                <p class="column__txt"><span class="icon-location"></span>Calle 17 N° 11-62</p>
+	                <p class="column__txt"><span class="icon-mail"></span>fruverhuerta@gmail.com</p>
+	                
+	            </div>
+	            <form action="enviar-prueba.php" method="post" class="formulario column column--50">
+	                <label for="" class="formulario__label">Nombre:</label>
+	                <input type="text" class="formulario__input-txt" name="nombre">
+	                <label for="" class="formulario__label">Correo:</label>
+	                <input type="text" class="formulario__input-txt" name="correo">
+	                <label for="" class="formulario__label">Teléfono:</label>
+	                <input type="text" class="formulario__input-txt" name="telefono">
+	                <label for="" class="formulario__label">Mensaje:</label>
+	                <textarea name="mensaje" id="" cols="30" rows="10" class="formulario__textarea"></textarea>
+	                <input type="submit" class="btn formulario__btn" value="Enviar">
+	            </form>
+	        </div>
+	    </section>
+	</main>
+
+	<footer class="main-footer">
+			<div class="container container--flex">
+				<div class="column column--50">
+					<h2 class="column__title">¿Porqué visitarnos?</h2>
+					<p class="column__txt">Supermercados La Huerta es reconocida como una empresa que presta un gran servicio,frescura y calidad por lo cual es reconocida por distribuir sus productos a diferentes empresas en Duitama, Paipa, Sogamoso y Sotaquira.</p>
+				</div>
+				<div class="column column--50">
+					<h2 class="column__title">Contacto</h2>
+					<p class="column__txt"><span class="icon-phone"></span>313 251 4834</p>
+	                <p class="column__txt"><span class="icon-location"></span>Calle 17 N° 11-62 Duitama, Boyacá</p>
+	                <p class="column__txt"><span class="icon-mail"></span>fruverhuerta@gmail.com</p>
+				</div>
+				<p class="copy">© 2019 Supermercado La Huerta | Todos los derechos reservados</p>
+			</div>
+	</footer>
+	<script src="js/menu.js"></script>
+</body>
+</html>
